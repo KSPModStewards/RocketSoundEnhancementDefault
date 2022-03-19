@@ -1,11 +1,11 @@
 {
     "NAME":"Rocket Sound Enhancement Default Config",
-    "URL":"https://raw.githubusercontent.com/ensou04/RocketSoundEnhancement/master/GameData/RocketSoundEnhancementDefault/RocketSoundEnhancementDefault.version",
-    "DOWNLOAD":"https://github.com/ensou04/RocketSoundEnhancement/releases",
+    "URL":"https://raw.githubusercontent.com/ensou04/RocketSoundEnhancementDefault/master/GameData/RocketSoundEnhancementDefault/RocketSoundEnhancementDefault.version",
+    "DOWNLOAD":"https://github.com/ensou04/RocketSoundEnhancementDefault/releases",
     "GITHUB":
     {
         "USERNAME":"ensou04",
-        "REPOSITORY":"RocketSoundEnhancement",
+        "REPOSITORY":"RocketSoundEnhancementDefault",
         "ALLOW_PRE_RELEASE":false
     },
     "VERSION":
