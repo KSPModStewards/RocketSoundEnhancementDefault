@@ -5,6 +5,7 @@ This is the Default Configuration and Sound Pack for [Rocket Sound Enhancement](
 - Engine Sound Replacements
 - RCS Sound Replacements
 - Wheel Sound Effects
+- New Launchclamp, Docking and Decoupler Sound effects
 - Collision Sound Effects
 - Physics Based Hull Sound Effects (rattling, creaking in IVA)
 
