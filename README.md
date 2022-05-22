@@ -3,10 +3,13 @@ This is the Default Configuration and Sound Pack for [Rocket Sound Enhancement](
 
 ## Features
 - Engine Sound Replacements
+- Jet Engine Sound Replacements
 - RCS Sound Replacements
-- Wheel Sound Effects
-- New Launchclamp, Docking and Decoupler Sound effects
+- RotorEngines Sound Effects
+- Wheel Tire and Motor Sound Effects
+- Decoupler Sound Replacements
 - Collision Sound Effects
+- Atmospheric Sound Effects (Featuring Sonic Booms if AirSim is enabled)
 - Physics Based Hull Sound Effects (rattling, creaking in IVA)
 
 ## Supported
