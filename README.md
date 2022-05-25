@@ -6,6 +6,7 @@ This is the Default Configuration and Sound Pack for [Rocket Sound Enhancement](
 - Jet Engine Sound Replacements
 - RCS Sound Replacements
 - RotorEngines Sound Effects
+- Propeller Sound Effects
 - Wheel Tire and Motor Sound Effects
 - Decoupler Sound Replacements
 - Collision Sound Effects
