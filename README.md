@@ -14,7 +14,7 @@ This is the Default Configuration and Sound Pack for [Rocket Sound Enhancement](
 - Physics Based Hull Sound Effects (rattling, creaking in IVA)
 
 ## Supported
-- [ReStock](https://github.com/PorktoberRevolution/ReStocked)
+- [ReStock/ReStockPlus](https://github.com/PorktoberRevolution/ReStocked)
 - [Waterfall ReStock](https://github.com/post-kerbin-mining-corporation/WaterfallRestock)
 - [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects)
 - [RealPlume](https://github.com/KSP-RO/RealPlume) 
