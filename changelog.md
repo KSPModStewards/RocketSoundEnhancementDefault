@@ -9,6 +9,7 @@
 - Near Future Launch Vehicles
 ### Changes
 - New Engage Sounds
+- New Sonic Boom Sounds (Near and Far)
 - New "Liquid_Burst_Heavy", "Liquid_Burst_Bass" and "Liquid_Burst_Lifter" Samples
 - New "SRB_Burst_Heavy" and "SRB_Burst_Light" Samples
 - Removed Unused RCS Samples
