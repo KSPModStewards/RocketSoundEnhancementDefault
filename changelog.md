@@ -3,7 +3,7 @@
 ## [Unreleased]
 ### Changes
 
-## [1.2.3]
+## [1.2.3] - 06-22-22
 ### Mod Support
 - Kerbal Atomics
 - Near Future Launch Vehicles
