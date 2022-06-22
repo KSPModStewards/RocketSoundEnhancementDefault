@@ -5,8 +5,8 @@
 
 ## [1.2.3] - 06-22-22
 ### Mod Support
-- Kerbal Atomics
-- Near Future Launch Vehicles
+- [Kerbal Atomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
+- [Near Future Launch Vehicles](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
 ### Changes
 - New Engage Sounds
 - New Sonic Boom Sounds (Near and Far)
