@@ -15,6 +15,8 @@ This is the Default Configuration and Sound Pack for [Rocket Sound Enhancement](
 
 ## Supported
 - [ReStock/ReStockPlus](https://github.com/PorktoberRevolution/ReStocked)
+- [Kerbal Atomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
+- [Near Future Launch Vehicles](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
 - [Waterfall ReStock](https://github.com/post-kerbin-mining-corporation/WaterfallRestock)
 - [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects)
 - [RealPlume](https://github.com/KSP-RO/RealPlume) 
