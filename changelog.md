@@ -1,13 +1,19 @@
 # Changelog
 
-## [Unreleased]
-### Changes
+# [Unreleased]
+## Changes
 
-## [1.2.3] - 06-22-22
-### Mod Support
+# [1.2.4]
+## Changes
+- Added KerbalEVA jetpack sounds. by @pizzaoverhead in https://github.com/ensou04/RocketSoundEnhancementDefault/pull/1
+- Updated Sepratron to only use one Thrust Layer
+- Updated LES to only use one Thrust Layer
+
+# [1.2.3] - 06-22-22
+## Mod Support
 - [Kerbal Atomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
 - [Near Future Launch Vehicles](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
-### Changes
+## Changes
 - New Engage Sounds
 - New Sonic Boom Sounds (Near and Far)
 - New "Liquid_Burst_Heavy", "Liquid_Burst_Bass" and "Liquid_Burst_Lifter" Samples
