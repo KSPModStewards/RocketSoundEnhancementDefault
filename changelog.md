@@ -4,7 +4,12 @@
 ## Changes
 
 # [1.2.4]
+## Mod Support
+- [Cryogenic Engines](https://github.com/post-kerbin-mining-corporation/CryoEngines)
 ## Changes
+- Rebalanced Engines Loudness
+- Converted Engine Patches to use "Presets"
+- Decoupler and Docking Port Auto Patcher
 - Added KerbalEVA jetpack sounds. by @pizzaoverhead in https://github.com/ensou04/RocketSoundEnhancementDefault/pull/1
 - Updated Sepratron to only use one Thrust Layer
 - Updated LES to only use one Thrust Layer
