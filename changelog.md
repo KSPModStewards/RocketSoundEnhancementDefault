@@ -3,11 +3,11 @@
 # [Unreleased]
 ## Changes
 
-# [1.2.4]
+# [1.2.4] - 07-09-22
 ## Mod Support
 - [Cryogenic Engines](https://github.com/post-kerbin-mining-corporation/CryoEngines)
 ## Changes
-- Rebalanced Engines Loudness
+- Re-balanced Engines Loudness
 - Converted Engine Patches to use "Presets"
 - Decoupler and Docking Port Auto Patcher
 - Added KerbalEVA jetpack sounds. by @pizzaoverhead in https://github.com/ensou04/RocketSoundEnhancementDefault/pull/1
