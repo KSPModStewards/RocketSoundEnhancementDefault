@@ -1,5 +1,5 @@
 # Rocket Sound Enhancement Default Configs
-This is the Default Configuration and Sound Pack for [Rocket Sound Enhancement](https://github.com/ensou04/RocketSoundEnhancement) Mod.
+This is the Default Configuration and Sound Pack for [Rocket Sound Enhancement](https://github.com/ensou04/RocketSoundEnhancement).
 
 ## Features
 - Engine Sound Replacements
