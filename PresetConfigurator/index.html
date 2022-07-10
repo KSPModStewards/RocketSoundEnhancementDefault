@@ -50,7 +50,7 @@
             </div>
             <div class="w3-panel">
                 <label class="w3-text"><b>Preset</b></label>
-                <select class="w3-input w3-border" id="presetName">
+                <select class="w3-input w3-border w3-white" id="presetName">
                     <option value="Liquid_Heavy-Lifter">Liquid_Heavy-Lifter</option>
                     <option value="Liquid_Heavy-Sustainer">Liquid_Heavy-Sustainer</option>
                     <option value="Liquid_Heavy-Vacuum">Liquid_Heavy-Vacuum</option>
@@ -86,11 +86,11 @@
                     oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
             </div>
             <div class="w3-panel">
-                <button class="w3-block" onclick="update()">GENERATE CONFIG</button>
+                <button class="w3-button w3-block w3-flat-peter-river" onclick="update()">GENERATE CONFIG</button>
             </div>
             <div class="w3-panel">
                 <label class="w3-text"><b>OUTPUT:</b></label>
-                <textarea class="w3-block w3-white w3-monospace code-block" name="configOutput" id="configOutput" rows="10" disabled></textarea>
+                <textarea class="w3-block w3-border w3-white w3-monospace code-block" name="configOutput" id="configOutput" rows="10" disabled></textarea>
             </div>
             <div class="w3-center">
                 <p class="w3-text">
