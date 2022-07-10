@@ -23,6 +23,7 @@ This is the Default Configuration and Sound Pack for [Rocket Sound Enhancement](
 - [RealPlume](https://github.com/KSP-RO/RealPlume) 
 
 ## For Modders
+- [Config Parity Modding Guide](https://github.com/ensou04/RocketSoundEnhancementDefault/wiki)
 - [Preset Configurator](https://ensou04.github.io/RocketSoundEnhancementDefault/PresetConfigurator/)
 
 ## Dependencies
