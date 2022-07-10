@@ -6,57 +6,100 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>RSE Default : Preset Configurator</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gruppo">
     <script src='script.js'></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body,h1,h2,h3,h4,h5,h6 {
+            font-family: Arial, Helvetica, sans-serif, sans-serif;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .main-body {
+            width: 800px;
+        }
+
+        .header-text {
+            font-family: Gruppo, sans-serif;
+        }
+
+        .code-block {
+            padding: 10px;
+        }
+    </style>
 </head>
 
-<body>
+<body class="w3-flat-midnight-blue">
+    <div class="main-body">
+        <div class="w3-container w3-center">
+            <h2 class="header-text">ROCKET SOUND ENHANCEMENT</h1>
+        </div>
+        <div class="w3-container w3-flat-clouds w3-round w3-card-4">
+            <div class="w3-panel w3-center">
+                <h2>PRESET CONFIGURATOR</h2>
+            </div>
+            <div class="w3-panel">
+                <label class="w3-text"><b>Preset</b></label>
+                <select class="w3-input w3-border" id="presetName">
+                    <option value="Liquid_Heavy-Lifter">Liquid_Heavy-Lifter</option>
+                    <option value="Liquid_Heavy-Sustainer">Liquid_Heavy-Sustainer</option>
+                    <option value="Liquid_Heavy-Vacuum">Liquid_Heavy-Vacuum</option>
+                    <option value="Liquid_Medium-Lifter">Liquid_Medium-Lifter</option>
+                    <option value="Liquid_Medium-Sustainer">Liquid_Medium-Sustainer</option>
+                    <option value="Liquid_Medium-Vacuum">Liquid_Medium-Vacuum</option>
+                    <option value="Liquid_Light-Atmosphere">Liquid_Light-Atmosphere</option>
+                    <option value="Liquid_Light-Vacuum">Liquid_Light-Vacuum</option>
+                    <option value="SRB_Heavy">SRB_Heavy</option>
+                    <option value="SRB_Medium">SRB_Medium</option>
+                    <option value="SRB_Light">SRB_Light</option>
+                    <option value="Liquid_Heavy-Multi">Liquid_Heavy-Multi</option>
+                    <option value="Liquid_Medium-Multi">Liquid_Medium-Multi</option>
+                    <option value="Liquid_Light-Multi">Liquid_Light-Multi</option>
+                </select>
+            </div>
 
-    <div>
-        <select id="presetName">
-            <option value="Liquid_Heavy-Lifter">Liquid_Heavy-Lifter</option>
-            <option value="Liquid_Heavy-Sustainer">Liquid_Heavy-Sustainer</option>
-            <option value="Liquid_Heavy-Vacuum">Liquid_Heavy-Vacuum</option>
-            <option value="Liquid_Medium-Lifter">Liquid_Medium-Lifter</option>
-            <option value="Liquid_Medium-Sustainer">Liquid_Medium-Sustainer</option>
-            <option value="Liquid_Medium-Vacuum">Liquid_Medium-Vacuum</option>
-            <option value="Liquid_Light-Atmosphere">Liquid_Light-Atmosphere</option>
-            <option value="Liquid_Light-Atmosphere_1">Liquid_Light-Atmosphere_1</option>
-            <option value="Liquid_Light-Vacuum">Liquid_Light-Vacuum</option>
-            <option value="Liquid_Light-Vacuum_1">Liquid_Light-Vacuum_1</option>
-            <option value="SRB_Heavy">SRB_Heavy</option>
-            <option value="SRB_Medium">SRB_Medium</option>
-            <option value="SRB_Light">SRB_Light</option>
-            <option value="SRB_Light_1">SRB_Light_1</option>
-            <option value="Liquid_Heavy-Multi">Liquid_Heavy-Multi</option>
-            <option value="Liquid_Medium-Multi">Liquid_Medium-Multi</option>
-            <option value="Liquid_Light-Multi">Liquid_Light-Multi</option>
-            <option value="Liquid_Light-Multi_1">Liquid_Light-Multi_1</option>
-        </select>
-    </div>
-    <div>
-        <label>pitch</label>
-        <input type="Text" id="pitch" value="1"
-            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
-    </div>
-    <div>
-        <label>maxThrust</label>
-        <input type="Text" id="maxThrust" value="1000"
-            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
-    </div>
+            <div class="w3-panel">
+                <label class="w3-text"><b>Pitch</b></label>
+                <input class="w3-input w3-border" type="Text" id="pitch" value="1" min="0"
+                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+            </div>
 
-    <div>
-        <label>secondaryMaxThrust</label>
-        <input type="Text" id="secondaryMaxThrust" value="2000"
-            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
-    </div>
-    <div>
-        <button onclick="update()">UPDATE</button>
-    </div>
-    <div>
-        <textarea name="configOutput" id="configOutput" cols="60" rows="10"></textarea>
-    </div>
+            <div class="w3-panel">
+                <label class="w3-text"><b>Max Thrust</b></label>
+                <input class="w3-input w3-border" type="Text" id="maxThrust" value="1000" min="0"
+                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+            </div>
 
+            <div class="w3-panel">
+                <label class="w3-text"><b>Secondary Max Thrust</b></label>
+                <input class="w3-input w3-border" type="Text" id="secondaryMaxThrust" value="2000" min="0"
+                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+            </div>
+            <div class="w3-panel">
+                <button class="w3-block" onclick="update()">GENERATE CONFIG</button>
+            </div>
+            <div class="w3-panel">
+                <label class="w3-text"><b>OUTPUT:</b></label>
+                <textarea class="w3-block w3-white w3-monospace code-block" name="configOutput" id="configOutput" rows="10" disabled></textarea>
+            </div>
+            <div class="w3-center">
+                <p class="w3-text">
+                    <a href="https://github.com/ensou04/RocketSoundEnhancementDefault">https://github.com/ensou04/RocketSoundEnhancementDefault</a> 
+                </p>
+            </div>
+        </div>
+    </div>
+    
     <script>
         function update() {
             presetName = document.getElementById("presetName").value;

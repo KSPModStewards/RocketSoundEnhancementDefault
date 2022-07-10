@@ -33,17 +33,13 @@ function PresetConfigurator(presetName = 'Liquid_Heavy-Lifter', maxThrust = 1000
         'Liquid_Medium-Sustainer'   : sampleLoudnessMap['Liquid_Medium-Vac'],
         'Liquid_Medium-Vacuum'      : sampleLoudnessMap['Liquid_Medium-Vac'],
         'Liquid_Light-Atmosphere'   : sampleLoudnessMap['Liquid_Light-Atm'],
-        'Liquid_Light-Atmosphere_1' : sampleLoudnessMap['Liquid_Light-Atm'],
         'Liquid_Light-Vacuum'       : sampleLoudnessMap['Liquid_Light-Vac'],
-        'Liquid_Light-Vacuum_1'     : sampleLoudnessMap['Liquid_Light-Vac'],
         'SRB_Heavy'                 : sampleLoudnessMap['SRB_Heavy'],
         'SRB_Medium'                : sampleLoudnessMap['SRB_Medium'],
         'SRB_Light'                 : sampleLoudnessMap['SRB_Light'],
-        'SRB_Light_1'               : sampleLoudnessMap['SRB_Light'],
         'Liquid_Heavy-Multi'    : [sampleLoudnessMap['Liquid_Heavy-Vac'], sampleLoudnessMap['Liquid_Heavy-Atm']],
         'Liquid_Medium-Multi'   : [sampleLoudnessMap['Liquid_Medium-Vac'], sampleLoudnessMap['Liquid_Medium-Atm']],
         'Liquid_Light-Multi'    : [sampleLoudnessMap['Liquid_Light-Vac'], sampleLoudnessMap['Liquid_Light-Atm']],
-        'Liquid_Light-Multi_1'  : [sampleLoudnessMap['Liquid_Light-Vac'], sampleLoudnessMap['Liquid_Light-Atm']],
     };
 
     if (maxThrust < 1000)
