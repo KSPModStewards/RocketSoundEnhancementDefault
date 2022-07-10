@@ -26,6 +26,9 @@ This is the Default Configuration and Sound Pack for [Rocket Sound Enhancement](
 - [Rocket Sound Enhancement](https://github.com/ensou04/RocketSoundEnhancement)
 - [Module Manager](https://github.com/sarbian/ModuleManager)
 
+## For Modders
+- [Preset Configurator](https://ensou04.github.io/RocketSoundEnhancementDefault/PresetConfigurator/)
+
 ## License
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
