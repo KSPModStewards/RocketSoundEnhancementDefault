@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>RSE Default : Preset Configurator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='script.js'></script>
+</head>
+
+<body>
+
+    <div>
+        <select id="presetName">
+            <option value="Liquid_Heavy-Lifter">Liquid_Heavy-Lifter</option>
+            <option value="Liquid_Heavy-Sustainer">Liquid_Heavy-Sustainer</option>
+            <option value="Liquid_Heavy-Vacuum">Liquid_Heavy-Vacuum</option>
+            <option value="Liquid_Medium-Lifter">Liquid_Medium-Lifter</option>
+            <option value="Liquid_Medium-Sustainer">Liquid_Medium-Sustainer</option>
+            <option value="Liquid_Medium-Vacuum">Liquid_Medium-Vacuum</option>
+            <option value="Liquid_Light-Atmosphere">Liquid_Light-Atmosphere</option>
+            <option value="Liquid_Light-Atmosphere_1">Liquid_Light-Atmosphere_1</option>
+            <option value="Liquid_Light-Vacuum">Liquid_Light-Vacuum</option>
+            <option value="Liquid_Light-Vacuum_1">Liquid_Light-Vacuum_1</option>
+            <option value="SRB_Heavy">SRB_Heavy</option>
+            <option value="SRB_Medium">SRB_Medium</option>
+            <option value="SRB_Light">SRB_Light</option>
+            <option value="SRB_Light_1">SRB_Light_1</option>
+            <option value="Liquid_Heavy-Multi">Liquid_Heavy-Multi</option>
+            <option value="Liquid_Medium-Multi">Liquid_Medium-Multi</option>
+            <option value="Liquid_Light-Multi">Liquid_Light-Multi</option>
+            <option value="Liquid_Light-Multi_1">Liquid_Light-Multi_1</option>
+        </select>
+    </div>
+    <div>
+        <label>pitch</label>
+        <input type="Text" id="pitch" value="1"
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+    </div>
+    <div>
+        <label>maxThrust</label>
+        <input type="Text" id="maxThrust" value="1000"
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+    </div>
+
+    <div>
+        <label>secondaryMaxThrust</label>
+        <input type="Text" id="secondaryMaxThrust" value="2000"
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+    </div>
+    <div>
+        <button onclick="update()">UPDATE</button>
+    </div>
+    <div>
+        <textarea name="configOutput" id="configOutput" cols="60" rows="10"></textarea>
+    </div>
+
+    <script>
+        function update() {
+            presetName = document.getElementById("presetName").value;
+            pitch = parseFloat(document.getElementById("pitch").value);
+            maxThrust = parseFloat(document.getElementById("maxThrust").value);
+            secondaryMaxThrust = parseFloat(document.getElementById("secondaryMaxThrust").value);
+            document.getElementById("configOutput").innerHTML = PresetConfigurator(presetName, maxThrust, pitch, secondaryMaxThrust);
+        }
+    </script>
+
+</body>
+
+</html>
