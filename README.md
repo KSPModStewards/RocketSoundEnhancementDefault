@@ -22,12 +22,12 @@ This is the Default Configuration and Sound Pack for [Rocket Sound Enhancement](
 - [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects)
 - [RealPlume](https://github.com/KSP-RO/RealPlume) 
 
+## For Modders
+- [Preset Configurator](https://ensou04.github.io/RocketSoundEnhancementDefault/PresetConfigurator/)
+
 ## Dependencies
 - [Rocket Sound Enhancement](https://github.com/ensou04/RocketSoundEnhancement)
 - [Module Manager](https://github.com/sarbian/ModuleManager)
-
-## For Modders
-- [Preset Configurator](https://ensou04.github.io/RocketSoundEnhancementDefault/PresetConfigurator/)
 
 ## License
 This work is licensed under a
