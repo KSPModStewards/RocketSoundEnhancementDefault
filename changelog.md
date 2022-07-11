@@ -9,6 +9,7 @@
 
 # [Unreleased]
 ## Changes
+- Added missing KerbalEVA jetpack sounds
 
 # [1.2.4] - 07-09-22
 ## Mod Support
