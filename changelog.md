@@ -1,5 +1,12 @@
 # Changelog
 
+# To-Do
+- [ ] Revamp Jets and Turbines
+- [ ] Higher Quality ShipEffects sounds
+- [ ] QC Electric Motor Sounds
+- [ ] QC Wheels
+- [ ] Launchclamp Sound
+
 # [Unreleased]
 ## Changes
 
