@@ -1,10 +1,10 @@
 {
     "NAME":"Rocket Sound Enhancement Default",
-    "URL":"https://raw.githubusercontent.com/ensou04/RocketSoundEnhancementDefault/master/GameData/RocketSoundEnhancementDefault/RocketSoundEnhancementDefault.version",
-    "DOWNLOAD":"https://github.com/ensou04/RocketSoundEnhancementDefault/releases",
+    "URL": "https://github.com/KSPModStewards/RocketSoundEnhancementDefault/releases/latest/download/RocketSoundEnhancementDefault.version",
+    "DOWNLOAD":"https://github.com/KSPModStewards/RocketSoundEnhancementDefault/releases",
     "GITHUB":
     {
-        "USERNAME":"ensou04",
+        "USERNAME":"KSPModStewards",
         "REPOSITORY":"RocketSoundEnhancementDefault",
         "ALLOW_PRE_RELEASE":false
     },
