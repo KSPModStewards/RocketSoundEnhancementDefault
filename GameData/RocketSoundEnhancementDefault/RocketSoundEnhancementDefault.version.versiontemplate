@@ -1,0 +1,33 @@
+{
+    "NAME":"Rocket Sound Enhancement Default",
+    "URL": "https://github.com/KSPModStewards/RocketSoundEnhancementDefault/releases/latest/download/RocketSoundEnhancementDefault.version",
+    "DOWNLOAD":"https://github.com/KSPModStewards/RocketSoundEnhancementDefault/releases",
+    "GITHUB":
+    {
+        "USERNAME":"KSPModStewards",
+        "REPOSITORY":"RocketSoundEnhancementDefault",
+        "ALLOW_PRE_RELEASE":false
+    },
+	"VERSION":
+	{
+		"MAJOR": @VERSION_MAJOR@,
+		"MINOR": @VERSION_MINOR@,
+		"PATCH": @VERSION_PATCH@
+	},
+    "KSP_VERSION":
+    {
+        "MAJOR":1,
+        "MINOR":12,
+        "PATCH":3
+    },
+    "KSP_VERSION_MIN":{
+        "MAJOR":1,
+        "MINOR":12,
+        "PATCH":3
+    },
+    "KSP_VERSION_MAX":{
+        "MAJOR":1,
+        "MINOR":12,
+        "PATCH":99
+    }
+}
