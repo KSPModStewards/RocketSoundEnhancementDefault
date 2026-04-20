@@ -8,7 +8,7 @@
 - [ ] QC Wheels
 - [ ] Launchclamp Sound
 
-## Unreleased
+## 1.3.1 - 2026-04-20
 
 - Fix duplicate EVA module being added to the base EVA parts
 - Fix issues with SWE, Waterfall Restock, and Avalanche (thanks @likeproblem )
