@@ -12,6 +12,7 @@
 
 - Fix duplicate EVA module being added to the base EVA parts
 - Fix issues with SWE, Waterfall Restock, and Avalanche (thanks @likeproblem )
+- Add support for engines from Near Future Spacecraft (thanks @ArgentGamer )
 
 
 ## [1.3.0] - 09-16-23
